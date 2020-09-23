@@ -12,3 +12,10 @@ variable "default_sg" {
   description = "The default security group definition for epam projects"
   default     = "sg-914f23bf"
 }
+
+variable "AWS_ACCESS_KEY_ID" {
+}
+
+
+variable "AWS_SECRET_ACCESS_KEY" {
+}
