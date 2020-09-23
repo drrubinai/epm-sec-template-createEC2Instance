@@ -40,6 +40,7 @@ resource "aws_instance" "example" {
   tags = {
     Name = "terraform-example"
   }
+  availability_zone = "us-east-1b"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
